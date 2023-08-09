@@ -160,9 +160,9 @@
 			</field>
 		</record>
 		
-		<menuitem id="main_food_menu_root" name="Food Order System" action="open_view_order_action"/>
+		<menuitem id="main_food_menu_root" name="Food Order System" action="open_view_order_action" web_icon="food_order_system,static/description/icon.png"/>
 	    <menuitem id="food_kanban_menu" name="Foods" parent="main_food_menu_root" action="action_food_kanban" sequence = "2" />
-	    <menuitem id="main_food_menu_root" name="Food Order System" action="open_view_order_action"/>
+	
 		<menuitem id="order_list_menu" name="Orders" parent="main_food_menu_root" action="open_view_order_action" sequence = "1"/>
 
 	</data>
